@@ -37,7 +37,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'execjs'
   s.add_development_dependency 'launchy'
   s.add_development_dependency 'capybara', '~> 2.3'
-  s.add_development_dependency 'chromedriver-helper'
+  # s.add_development_dependency 'chromedriver-helper'
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'appraisal', '~> 2.1'
