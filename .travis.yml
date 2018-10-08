@@ -1,11 +1,14 @@
 language: ruby
 
-sudo: required
+# sudo: required
+sudo: false
+dist: trusty
 addons:
   chrome: stable
 
 before_install:
-  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 about:blank &
+  # - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 about:blank &
+  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
 
 cache:
   bundler: true
